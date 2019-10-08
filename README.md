@@ -1,1 +1,1 @@
-# spotlight-studio-sample
+# stoplight-studio-sample
