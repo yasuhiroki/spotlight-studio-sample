@@ -15,13 +15,9 @@ paths:
           content:
             application/json:
               schema:
-                type: object
-                properties:
-                  users:
-                    type: array
-                    items:
-                      allOf:
-                        - $ref: '#/components/schemas/User'
+                type: array
+                items:
+                  $ref: '#/components/schemas/User'
       parameters: []
     parameters: []
   '/users/{id}':
@@ -55,8 +51,6 @@ components:
           name: sample
       properties:
         id:
-          type: string
+          type: integer
         name:
-          type: string
-        '':
           type: string
